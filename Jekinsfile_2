@@ -1,0 +1,17 @@
+pipeline{
+agent any
+
+stages {
+stage('ANY NAME'){
+steps {
+sh "welcome back mahesh"
+}
+}
+stage('SAME'){
+steps {
+echo "your welcome"
+}
+
+}
+}
+}
