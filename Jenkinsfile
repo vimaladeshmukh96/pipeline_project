@@ -18,6 +18,11 @@ pipeline {
                 echo 'your genius mahesh'
             }
         }
+           stage('build') {
+            steps {
+                echo 'sucessfuly completed webhook task'
+            }
+        }
     }
 }
 
