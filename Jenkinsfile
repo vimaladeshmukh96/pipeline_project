@@ -23,6 +23,12 @@ pipeline {
                 echo 'sucessfuly completed webhook task'
             }
         }
+            stage('test') {
+            steps {
+                echo 'sucessfuly completed webhook task'
+            }
+        }
+        
     }
 }
 
